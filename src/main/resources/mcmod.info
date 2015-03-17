@@ -1,0 +1,21 @@
+[
+{
+  "modid": "DefinitelyNotVanillaMinecraft",
+  "name": "Definitely Not Vanilla Minecraft",
+  "description": "GrandHunterMan's first mod. To be enhanced.",
+  "version": "0.1",
+  "mcversion": "1.8.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "pahimar"
+  ],
+  "credits": "GrandHunterMan - Everything so far. Pahimar - teaching me everything",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

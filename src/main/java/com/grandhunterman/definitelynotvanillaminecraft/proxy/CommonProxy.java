@@ -1,7 +1,9 @@
 package com.grandhunterman.definitelynotvanillaminecraft.proxy;
 
-/**
- * Created by Thomas Keehn on 2015-03-11.
- */
+
 public abstract class CommonProxy implements IProxy {
+
+    public void registerRenders(){
+
+    }
 }

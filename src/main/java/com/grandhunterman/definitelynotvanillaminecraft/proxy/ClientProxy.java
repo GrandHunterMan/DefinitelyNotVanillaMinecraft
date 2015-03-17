@@ -1,7 +1,12 @@
 package com.grandhunterman.definitelynotvanillaminecraft.proxy;
 
-/**
- * Created by Thomas Keehn on 2015-03-11.
- */
+
+import com.grandhunterman.definitelynotvanillaminecraft.init.ModItems;
+
 public class ClientProxy extends CommonProxy {
+    @Override
+    public void registerRenders() {
+        ModItems.registerRenders();
+    }
 }
+
