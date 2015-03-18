@@ -1,0 +1,6 @@
+#Blocks
+tile.aluminum_block.name=Block of Aluminum
+
+#Items
+item.aluminum_ingot.name=Aluminum Ingot
+item.salt.name=Salt
