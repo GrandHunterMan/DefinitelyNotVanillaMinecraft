@@ -1,6 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
-
-import net.minecraft.block.material.Material;
+package com.grandhunterman.definitelynotvanillaminecraft.item;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -19,11 +17,5 @@ import net.minecraft.block.material.Material;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockAluminumBlock extends MachineBlockDNVM {
-
-    public BlockAluminumBlock(Material materialIn) {
-        super();
-        this.setBlockUnbreakable();
-        this.getMaterial();
-    }
+public class ItemRutileCrystal {
 }

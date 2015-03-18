@@ -1,5 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft.blocks;
 
+import com.grandhunterman.definitelynotvanillaminecraft.CreativeTabDNVM;
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
 /**
@@ -19,11 +21,12 @@ import net.minecraft.block.material.Material;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockAluminumBlock extends MachineBlockDNVM {
 
-    public BlockAluminumBlock(Material materialIn) {
-        super();
-        this.setBlockUnbreakable();
-        this.getMaterial();
+//This is the default properties for all machines
+
+public class MachineBlockDNVM extends Block {
+    public MachineBlockDNVM() {
+        super(Material.iron);
+        this.setCreativeTab(CreativeTabDNVM.DNVM_TAB);
     }
 }

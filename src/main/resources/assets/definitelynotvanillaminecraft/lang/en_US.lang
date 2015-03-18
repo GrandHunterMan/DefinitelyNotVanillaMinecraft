@@ -1,6 +1,8 @@
 #Blocks
 tile.aluminum_block.name=Block of Aluminum
+tile.titanium_block.name=Block of Titanium
 
 #Items
 item.aluminum_ingot.name=Aluminum Ingot
 item.salt.name=Salt
+item.titanium_ingot.name=Titanium Ingot

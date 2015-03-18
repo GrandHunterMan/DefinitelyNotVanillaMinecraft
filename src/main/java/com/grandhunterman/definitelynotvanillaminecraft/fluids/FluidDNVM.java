@@ -1,6 +1,6 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.fluids;
 
-import net.minecraft.block.material.Material;
+import net.minecraftforge.fluids.Fluid;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,13 +17,11 @@ import net.minecraft.block.material.Material;
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.t
  */
-public class BlockAluminumBlock extends MachineBlockDNVM {
+public class FluidDNVM extends Fluid {
+    public FluidDNVM(String fluidName) {
+        super(fluidName);
 
-    public BlockAluminumBlock(Material materialIn) {
-        super();
-        this.setBlockUnbreakable();
-        this.getMaterial();
-    }
+    }   //I think this is how I do this...
 }

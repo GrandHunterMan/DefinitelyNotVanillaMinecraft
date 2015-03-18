@@ -1,6 +1,6 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
-import com.grandhunterman.definitelynotvanillaminecraft.item.ItemAluminumIngot;
+import com.grandhunterman.definitelynotvanillaminecraft.CreativeTabDNVM;
 import com.grandhunterman.definitelynotvanillaminecraft.item.ItemDNVM;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
 import net.minecraft.client.Minecraft;
@@ -9,17 +9,30 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
- * This is a comment
+ * Definitely Not Vanilla Minecraft
+ * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.ca)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class ModItems {
+public class DNVMItems {
 
     public static Item aluminum_ingot;
     public static Item salt;
 
     public static void init(){
-        aluminum_ingot = new Item().setUnlocalizedName("aluminum_ingot");
-        salt = new Item().setUnlocalizedName("salt");
-
+        aluminum_ingot = new Item().setUnlocalizedName("aluminum_ingot").setCreativeTab(CreativeTabDNVM.DNVM_TAB);
+        salt = new Item().setUnlocalizedName("salt").setCreativeTab(CreativeTabDNVM.DNVM_TAB);
     }
 
     public static void Register(){
