@@ -14,20 +14,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
 
     public static Item aluminum_ingot;
+    public static Item salt;
 
     public static void init(){
         aluminum_ingot = new Item().setUnlocalizedName("aluminum_ingot");
+        salt = new Item().setUnlocalizedName("salt");
+
     }
 
     public static void Register(){
         GameRegistry.registerItem(aluminum_ingot, aluminum_ingot.getUnlocalizedName().substring(5));
-
+        GameRegistry.registerItem(salt, salt.getUnlocalizedName().substring(5));
 
     }
 
     public static void registerRenders(){
         RegisterRender(aluminum_ingot);
-
+        RegisterRender(salt);
 
     }
 

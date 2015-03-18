@@ -1,0 +1,37 @@
+[18:40:40] [Client thread/INFO]: Setting user: Player859
+[18:40:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:40:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[18:40:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:40:44] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[18:40:44] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:40:45] [Thread-7/INFO]: OpenAL initialized.
+[18:40:45] [Sound Library Loader/INFO]: Sound engine started
+[18:40:47] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:40:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[18:40:47] [Client thread/INFO]: SoundSystem shutting down...
+[18:40:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:40:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:40:48] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[18:40:48] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:40:48] [Thread-9/INFO]: OpenAL initialized.
+[18:40:48] [Sound Library Loader/INFO]: Sound engine started
+[18:40:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:40:52] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[18:40:52] [Server thread/INFO]: Generating keypair
+[18:40:52] [Server thread/INFO]: Preparing start region for level 0
+[18:40:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:40:53] [Server thread/INFO]: Player859[local:E:5c23f918] logged in with entity id 236 at (835.0607063603758, 4.0, -425.36332955339617)
+[18:40:53] [Server thread/INFO]: Player859 joined the game
+[18:41:41] [Server thread/INFO]: Saving and pausing game...
+[18:41:41] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
+[18:41:41] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
+[18:41:41] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
+[18:41:41] [Client thread/INFO]: Stopping!
+[18:41:42] [Client thread/INFO]: SoundSystem shutting down...
+[18:41:42] [Server thread/INFO]: Stopping server
+[18:41:42] [Server thread/INFO]: Saving players
+[18:41:42] [Server thread/INFO]: Saving worlds
+[18:41:42] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
+[18:41:42] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
+[18:41:42] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
+[18:41:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

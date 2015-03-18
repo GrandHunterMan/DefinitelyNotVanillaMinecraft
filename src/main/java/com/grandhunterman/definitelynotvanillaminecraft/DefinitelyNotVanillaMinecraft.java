@@ -1,6 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft;
 
 import com.grandhunterman.definitelynotvanillaminecraft.handler.ConfigurationHandler;
+import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMBlocks;
 import com.grandhunterman.definitelynotvanillaminecraft.init.ModItems;
 import com.grandhunterman.definitelynotvanillaminecraft.proxy.IProxy;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
@@ -26,6 +27,8 @@ public class DefinitelyNotVanillaMinecraft
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
         ModItems.Register();
+        DNVMBlocks.init();
+        DNVMBlocks.register();
         LogHelper.info("DNVM Pre-Init Complete");
     }
     @Mod.EventHandler
