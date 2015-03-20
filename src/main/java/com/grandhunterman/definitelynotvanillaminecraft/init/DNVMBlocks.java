@@ -1,5 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
+import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockAluminumBlock;
+import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockTitaniumBlock;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
 import com.grandhunterman.definitelynotvanillaminecraft.utility.LogHelper;
 import net.minecraft.block.Block;
@@ -29,19 +31,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class DNVMBlocks {
     //To be honest, I have no idea what I'm doing
     public static Block aluminum_block;
+    public static Block titanium_block;
 
     public static void init(){
-        aluminum_block = new MachineBlockDNVM().setUnlocalizedName("aluminum_block");
+        aluminum_block = new BlockAluminumBlock().setUnlocalizedName("aluminum_block");
+        titanium_block = new BlockTitaniumBlock().setUnlocalizedName("titanium_block");
     }
 
     public static void register(){
         //substring gets rid of .tile
         GameRegistry.registerBlock(aluminum_block, aluminum_block.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(titanium_block, titanium_block.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
        //Tells registerRender to register the render
         registerRender(aluminum_block);
+        registerRender(titanium_block);
     }
 
     public static void registerRender(Block block){

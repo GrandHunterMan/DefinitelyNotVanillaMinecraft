@@ -21,9 +21,8 @@ import net.minecraft.block.material.Material;
  */
 public class BlockAluminumBlock extends MachineBlockDNVM {
 
-    public BlockAluminumBlock(Material materialIn) {
+    public BlockAluminumBlock() {
         super();
-        this.setBlockUnbreakable();
-        this.getMaterial();
+        //OMFG I finally figured this out. Maybe I actually make some progress now...
     }
 }
