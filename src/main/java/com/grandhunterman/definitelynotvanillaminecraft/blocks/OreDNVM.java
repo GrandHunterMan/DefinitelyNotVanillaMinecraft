@@ -1,39 +1,29 @@
-package com.grandhunterman.definitelynotvanillaminecraft;
+package com.grandhunterman.definitelynotvanillaminecraft.blocks;
 
-
-import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMItems;
-import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import com.grandhunterman.definitelynotvanillaminecraft.CreativeTabDNVM;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 
 /**
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.ca)
- *
+ * <p/>
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- *
+ * <p/>
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
+ * <p/>
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class CreativeTabDNVM {
-    public static final CreativeTabs DNVM_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
-
-        @Override
-        public Item getTabIconItem() {
-            return DNVMItems.aluminum_ingot;
-        }
-
-        @Override
-        public String getTranslatedTabLabel(){
-            return "Definitely Not Vanilla Minecraft";
-        }
-    };
+public class OreDNVM extends Block {
+    public OreDNVM(){
+        super(Material.rock);
+        this.setCreativeTab(CreativeTabDNVM.DNVM_TAB);
+    }
 }

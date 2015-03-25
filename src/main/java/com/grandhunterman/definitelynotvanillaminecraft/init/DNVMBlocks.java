@@ -1,11 +1,9 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
-import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockAluminumBlock;
-import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockTitaniumBlock;
+import com.grandhunterman.definitelynotvanillaminecraft.blocks.*;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
 import com.grandhunterman.definitelynotvanillaminecraft.utility.LogHelper;
 import net.minecraft.block.Block;
-import com.grandhunterman.definitelynotvanillaminecraft.blocks.MachineBlockDNVM;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -32,22 +30,50 @@ public class DNVMBlocks {
     //To be honest, I have no idea what I'm doing
     public static Block aluminum_block;
     public static Block titanium_block;
+    public static Block cryolite_block;
+    public static Block rutile_block;
+    //Block-Ore
+    public static Block titanium_ore;
+    public static Block aluminum_ore;
+    public static Block cryolite_ore;
+    public static Block rutile_ore;
 
     public static void init(){
         aluminum_block = new BlockAluminumBlock().setUnlocalizedName("aluminum_block");
         titanium_block = new BlockTitaniumBlock().setUnlocalizedName("titanium_block");
+        cryolite_block = new BlockCryoliteBlock().setUnlocalizedName("cryolite_block");
+        rutile_block = new BlockRutileBlock().setUnlocalizedName("rutile_block");
+        //Block-Ore
+        titanium_ore = new BlockTitaniumOre().setUnlocalizedName("titanium_ore");
+        aluminum_ore = new BlockAluminumOre().setUnlocalizedName("aluminum_ore");
+        cryolite_ore = new BlockCryoliteOre().setUnlocalizedName("cryolite_ore");
+        rutile_ore = new BlockRutileOre().setUnlocalizedName("rutile_ore");
     }
 
     public static void register(){
         //substring gets rid of .tile
         GameRegistry.registerBlock(aluminum_block, aluminum_block.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(titanium_block, titanium_block.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(cryolite_block, cryolite_block.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(rutile_block, rutile_block.getUnlocalizedName().substring(5));
+        //Block-Ore
+        GameRegistry.registerBlock(titanium_ore, titanium_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(aluminum_ore, aluminum_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(cryolite_ore, cryolite_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(rutile_ore, rutile_ore.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
        //Tells registerRender to register the render
         registerRender(aluminum_block);
         registerRender(titanium_block);
+        registerRender(cryolite_block);
+        registerRender(rutile_block);
+        //Block-Ore
+        registerRender(titanium_ore);
+        registerRender(aluminum_ore);
+        registerRender(cryolite_ore);
+        registerRender(rutile_ore);
     }
 
     public static void registerRender(Block block){

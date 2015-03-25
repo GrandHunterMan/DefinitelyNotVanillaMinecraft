@@ -1,65 +1,35 @@
-[10:03:36] [Client thread/INFO]: Setting user: Player515
-[10:03:37] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:03:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
-[10:03:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:03:40] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:03:40] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:03:40] [Thread-7/INFO]: OpenAL initialized.
-[10:03:40] [Sound Library Loader/INFO]: Sound engine started
-[10:03:42] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:03:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
-[10:03:43] [Client thread/INFO]: SoundSystem shutting down...
-[10:03:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:03:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:03:43] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[10:03:43] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:03:43] [Thread-9/INFO]: OpenAL initialized.
-[10:03:43] [Sound Library Loader/INFO]: Sound engine started
-[10:03:44] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:04:02] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[10:04:02] [Server thread/INFO]: Generating keypair
-[10:04:03] [Server thread/INFO]: Preparing start region for level 0
-[10:04:03] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:04:04] [Server thread/INFO]: Player515[local:E:5bfda224] logged in with entity id 126 at (837.4203007238182, 7.0, -430.5775561240679)
-[10:04:04] [Server thread/INFO]: Player515 joined the game
-[10:06:01] [Server thread/INFO]: Player515 has just earned the achievement [Taking Inventory]
-[10:06:01] [Client thread/INFO]: [CHAT] Player515 has just earned the achievement [Taking Inventory]
-[10:06:03] [Client thread/INFO]: Stopping!
-[10:06:03] [Client thread/INFO]: SoundSystem shutting down...
-[10:06:03] [Server thread/INFO]: Stopping server
-[10:06:03] [Server thread/INFO]: Saving players
-[10:06:03] [Server thread/INFO]: Saving worlds
-[10:06:03] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
-[10:06:03] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
-[10:06:03] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
-[10:06:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:07:33] [Client thread/INFO]: Setting user: Player671
-[10:07:35] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:07:38] [Client thread/INFO]: Reloading ResourceManager[10:07:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft For[10:07:39] [Sound Library Loader/INFO]: Starting up SoundS[10:07:39][10:07:39] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[10[10:07:39] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[10:07:39] [Thread-6/INFO]: (The LWJGL binding of [10:07:39] [Thread-6/INFO]: OpenAL initialized.
-[10:07:39] [Sound Library Loader/INFO]: Sound engine start[10:[10:07:41] [Client thread/INFO]: Created: 512x512 textures[10:07:4[10:07:42] [Client thread/INFO]: Reloading ResourceManager[10:07:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
-[10:0[10:07:43] [Client thread/WARN]: Author: Paul Lamb, www.pa[10:07:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:07:43][10:07:43] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[10[10:07:43] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[10:07:43] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwj[10:07:43] [Sound Library Loader/INFO]: Sound engine start[10:[10:07:44] [Client thread/INFO]: Created: 512x512 textures[10:07:4[10:07:48] [Server thread/INFO]: Starting integrated minec[10:08:23] [Client thread/INFO]: Stopping!
-[10:08:23] [Client thread/INFO]: SoundSystem shutting down...
-[10:08:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-: Changing view distance to 12, from 10
-[10:07:50] [Server thread/INFO]: Player671[local:E:edcf970d] logged in with entity id 124 at (838.2424262222968, 7.0, -430.5442874188495)
-[10:07:50] [Server thread/INFO]: Player671 joined the game
-[10:08:12] [Server thread/INFO]: Saving and pausing game...
-[10:08:12] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
-[10:08:12] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
-[10:08:12] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
-[10:11:23] [Server thread/INFO]: Player671 has just earned the achievement [Taking Inventory]
-[10:11:23] [Client thread/INFO]: [CHAT] Player671 has just earned the achievement [Taking Inventory]
-[10:11:24] [Client thread/INFO]: Stopping!
-[10:11:24] [Client thread/INFO]: SoundSystem shutting down...
-[10:11:24] [Server thread/INFO]: Stopping server
-[10:11:24] [Server thread/INFO]: Saving players
-[10:11:24] [Server thread/INFO]: Saving worlds
-[10:11:24] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
-[10:11:24] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
-[10:11:24] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
-[10:11:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:02:29] [main/INFO]: Logging in with username & password
+[19:02:33] [Client thread/INFO]: Setting user: GrandHunterMan
+[19:02:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:02:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[19:02:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:02:37] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[19:02:37] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:02:37] [Thread-7/INFO]: OpenAL initialized.
+[19:02:37] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[19:02:37] [Sound Library Loader/INFO]: Sound engine started
+[19:02:39] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:02:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[19:02:39] [Client thread/INFO]: SoundSystem shutting down...
+[19:02:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:02:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:02:40] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[19:02:40] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:02:40] [Thread-9/INFO]: OpenAL initialized.
+[19:02:40] [Sound Library Loader/INFO]: Sound engine started
+[19:02:41] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:02:45] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[19:02:45] [Server thread/INFO]: Generating keypair
+[19:02:45] [Server thread/INFO]: Preparing start region for level 0
+[19:02:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:02:46] [Server thread/INFO]: GrandHunterMan[local:E:8f963739] logged in with entity id 127 at (837.1781420289717, 14.137380092559175, -430.7607774598611)
+[19:02:46] [Server thread/INFO]: GrandHunterMan joined the game
+[19:04:36] [Client thread/INFO]: Stopping!
+[19:04:36] [Client thread/INFO]: SoundSystem shutting down...
+[19:04:36] [Server thread/INFO]: Stopping server
+[19:04:36] [Server thread/INFO]: Saving players
+[19:04:36] [Server thread/INFO]: Saving worlds
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
+[19:04:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

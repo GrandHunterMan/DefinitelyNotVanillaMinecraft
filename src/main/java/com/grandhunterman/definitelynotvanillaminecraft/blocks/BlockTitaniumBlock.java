@@ -15,9 +15,12 @@ package com.grandhunterman.definitelynotvanillaminecraft.blocks;
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.t
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 public class BlockTitaniumBlock extends MachineBlockDNVM {
-
+    public BlockTitaniumBlock(){
+        super();
+        //This isn't rendering... I wonder what's wrong...
+    }
 }
 

@@ -4,6 +4,7 @@ import com.grandhunterman.definitelynotvanillaminecraft.item.ItemAluminumIngot;
 import com.grandhunterman.definitelynotvanillaminecraft.item.ItemSalt;
 import com.grandhunterman.definitelynotvanillaminecraft.item.ItemTitaniumIngot;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
+import com.grandhunterman.definitelynotvanillaminecraft.utility.LogHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -33,6 +34,8 @@ public class DNVMItems {
     public static Item titanium_ingot;
     public static Item cryolite_crystal;
     public static Item rutile_crystal;
+    public static Item coaly_iron;
+    public static Item steel;
 
     public static void init(){
         aluminum_ingot = new ItemAluminumIngot().setUnlocalizedName("aluminum_ingot");
@@ -40,6 +43,8 @@ public class DNVMItems {
         titanium_ingot = new ItemTitaniumIngot().setUnlocalizedName("titanium_ingot");
         cryolite_crystal = new ItemTitaniumIngot().setUnlocalizedName("cryolite_crystal");
         rutile_crystal = new ItemTitaniumIngot().setUnlocalizedName("rutile_crystal");
+        coaly_iron = new ItemTitaniumIngot().setUnlocalizedName("coaly_iron");
+        steel = new ItemTitaniumIngot().setUnlocalizedName("steel");
     }
 
     public static void Register(){
@@ -48,6 +53,8 @@ public class DNVMItems {
         GameRegistry.registerItem(titanium_ingot, titanium_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(cryolite_crystal, cryolite_crystal.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(rutile_crystal, rutile_crystal.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(coaly_iron, coaly_iron.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(steel, steel.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
@@ -56,13 +63,17 @@ public class DNVMItems {
         RegisterRender(titanium_ingot);
         RegisterRender(cryolite_crystal);
         RegisterRender(rutile_crystal);
+        RegisterRender(coaly_iron);
+        RegisterRender(steel);
 
 
     }
 
     public static void RegisterRender(Item item){
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+        LogHelper.debug("Items Loaded");
     }
+
 
 }
 
