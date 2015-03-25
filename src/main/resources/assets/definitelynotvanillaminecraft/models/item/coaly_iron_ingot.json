@@ -1,7 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "definitelynotvanillaminecraft:items/steel_ingot"
+    "layer0": "definitelynotvanillaminecraft:items/coaly_iron_ingot"
   },
   "display": {
     "thirdperson": {
