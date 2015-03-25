@@ -74,6 +74,7 @@ public class DNVMBlocks {
         registerRender(aluminum_ore);
         registerRender(cryolite_ore);
         registerRender(rutile_ore);
+        //so many rendering problems...
     }
 
     public static void registerRender(Block block){

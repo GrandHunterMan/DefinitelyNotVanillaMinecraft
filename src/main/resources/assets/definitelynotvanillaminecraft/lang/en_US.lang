@@ -1,6 +1,14 @@
 #Blocks
 tile.aluminum_block.name=Block of Aluminum
 tile.titanium_block.name=Block of Titanium
+tile.rutile_block.name=Block of Rutile
+tile.cryolite_block.name=Block of Cryolite
+
+#Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.titanium_ore.name=Titanium Ore
+tile.cryolite_ore.name=Cryolite Ore
+tile.rutile_ore.name=Rutile Ore
 
 #Items
 item.aluminum_ingot.name=Aluminum Ingot
