@@ -69,9 +69,8 @@ public class DNVMItems {
 
     public static void RegisterRender(Item item){
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
-        LogHelper.debug("Items Loaded");
-    }
 
+    }
 
 }
 

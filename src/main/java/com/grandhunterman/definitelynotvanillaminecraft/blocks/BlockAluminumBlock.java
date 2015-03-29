@@ -1,7 +1,5 @@
 package com.grandhunterman.definitelynotvanillaminecraft.blocks;
 
-import net.minecraft.block.material.Material;
-
 /**
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.ca)

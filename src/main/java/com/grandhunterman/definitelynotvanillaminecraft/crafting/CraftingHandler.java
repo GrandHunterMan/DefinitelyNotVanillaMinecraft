@@ -1,4 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.crafting;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,10 +17,5 @@ package com.grandhunterman.definitelynotvanillaminecraft.blocks;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockAluminumOre extends OreDNVM {
-
-    public BlockAluminumOre(){
-        super();
-        //What's going on!!??!?!?!?!
-    }
+public class CraftingHandler {
 }

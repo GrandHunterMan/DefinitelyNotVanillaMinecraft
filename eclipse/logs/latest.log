@@ -1,14 +1,14 @@
-[10:58:02] [main/INFO]: Logging in with username & password
-[10:58:05] [Client thread/INFO]: Setting user: GrandHunterMan
-[10:58:07] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:58:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
-[10:58:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:58:10] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:58:10] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:58:10] [Thread-7/INFO]: OpenAL initialized.
-[10:58:10] [Sound Library Loader/INFO]: Sound engine started
-[10:58:11] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[10:58:12] [Client thread/ERROR]: Using missing texture, unable to load definitelynotvanillaminecraft:textures/items/steel_ingot.png
+[19:50:10] [main/INFO]: Logging in with username & password
+[19:50:14] [Client thread/INFO]: Setting user: GrandHunterMan
+[19:50:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:50:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[19:50:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:50:20] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[19:50:20] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:50:20] [Thread-7/INFO]: OpenAL initialized.
+[19:50:20] [Sound Library Loader/INFO]: Sound engine started
+[19:50:20] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[19:50:22] [Client thread/ERROR]: Using missing texture, unable to load definitelynotvanillaminecraft:textures/items/steel_ingot.png
 java.io.FileNotFoundException: definitelynotvanillaminecraft:textures/items/steel_ingot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:70) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -33,16 +33,16 @@ java.io.FileNotFoundException: definitelynotvanillaminecraft:textures/items/stee
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_76]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_76]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[10:58:12] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:58:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
-[10:58:13] [Client thread/INFO]: SoundSystem shutting down...
-[10:58:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:58:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:58:13] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[10:58:13] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:58:13] [Thread-9/INFO]: OpenAL initialized.
-[10:58:14] [Sound Library Loader/INFO]: Sound engine started
-[10:58:14] [Client thread/ERROR]: Using missing texture, unable to load definitelynotvanillaminecraft:textures/items/steel_ingot.png
+[19:50:22] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:50:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Definitely Not Vanilla Minecraft
+[19:50:23] [Client thread/INFO]: SoundSystem shutting down...
+[19:50:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:50:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:50:23] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[19:50:23] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:50:23] [Thread-9/INFO]: OpenAL initialized.
+[19:50:24] [Sound Library Loader/INFO]: Sound engine started
+[19:50:24] [Client thread/ERROR]: Using missing texture, unable to load definitelynotvanillaminecraft:textures/items/steel_ingot.png
 java.io.FileNotFoundException: definitelynotvanillaminecraft:textures/items/steel_ingot.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:70) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -70,19 +70,23 @@ java.io.FileNotFoundException: definitelynotvanillaminecraft:textures/items/stee
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_76]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_76]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[10:58:14] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:59:41] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[10:59:41] [Server thread/INFO]: Generating keypair
-[10:59:41] [Server thread/INFO]: Preparing start region for level 0
-[10:59:42] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:59:42] [Server thread/INFO]: GrandHunterMan[local:E:31fb1956] logged in with entity id 122 at (842.0707740845398, 14.137380092559175, -429.4613003087797)
-[10:59:42] [Server thread/INFO]: GrandHunterMan joined the game
-[11:01:29] [Client thread/INFO]: Stopping!
-[11:01:29] [Client thread/INFO]: SoundSystem shutting down...
-[11:01:30] [Server thread/INFO]: Stopping server
-[11:01:30] [Server thread/INFO]: Saving players
-[11:01:30] [Server thread/INFO]: Saving worlds
-[11:01:30] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
-[11:01:30] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
-[11:01:30] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
-[11:01:30] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:50:24] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:50:28] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[19:50:28] [Server thread/INFO]: Generating keypair
+[19:50:28] [Server thread/INFO]: Preparing start region for level 0
+[19:50:28] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:50:29] [Server thread/INFO]: GrandHunterMan[local:E:febb7970] logged in with entity id 116 at (834.9359659461792, 4.0, -429.2126233925667)
+[19:50:29] [Server thread/INFO]: GrandHunterMan joined the game
+[19:51:54] [Server thread/INFO]: Saving and pausing game...
+[19:51:54] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
+[19:51:54] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
+[19:51:54] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
+[19:53:04] [Client thread/INFO]: Stopping!
+[19:53:05] [Client thread/INFO]: SoundSystem shutting down...
+[19:53:05] [Server thread/INFO]: Stopping server
+[19:53:05] [Server thread/INFO]: Saving players
+[19:53:05] [Server thread/INFO]: Saving worlds
+[19:53:05] [Server thread/INFO]: Saving chunks for level 'First Test'/Overworld
+[19:53:05] [Server thread/INFO]: Saving chunks for level 'First Test'/Nether
+[19:53:05] [Server thread/INFO]: Saving chunks for level 'First Test'/The End
+[19:53:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

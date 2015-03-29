@@ -1,4 +1,11 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.init;
+
+import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockTitaniumBlock;
+import com.grandhunterman.definitelynotvanillaminecraft.item.ItemTitaniumIngot;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.WeightedRandom;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,8 +24,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.blocks;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockTitaniumOre extends OreDNVM {
-    public BlockTitaniumOre(){
-        super();
+public class DNVMRecipes {
+    public static void init() {
+        GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.titanium_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.titanium_ingot});
     }
 }

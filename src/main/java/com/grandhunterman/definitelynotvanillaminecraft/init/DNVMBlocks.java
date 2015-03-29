@@ -33,10 +33,10 @@ public class DNVMBlocks {
     public static Block cryolite_block;
     public static Block rutile_block;
     //Block-Ore
-    public static Block titanium_ore;
     public static Block aluminum_ore;
     public static Block cryolite_ore;
     public static Block rutile_ore;
+    //Machines
 
     public static void init(){
         aluminum_block = new BlockAluminumBlock().setUnlocalizedName("aluminum_block");
@@ -44,10 +44,10 @@ public class DNVMBlocks {
         cryolite_block = new BlockCryoliteBlock().setUnlocalizedName("cryolite_block");
         rutile_block = new BlockRutileBlock().setUnlocalizedName("rutile_block");
         //Block-Ore
-        titanium_ore = new BlockTitaniumOre().setUnlocalizedName("titanium_ore");
         aluminum_ore = new BlockAluminumOre().setUnlocalizedName("aluminum_ore");
         cryolite_ore = new BlockCryoliteOre().setUnlocalizedName("cryolite_ore");
         rutile_ore = new BlockRutileOre().setUnlocalizedName("rutile_ore");
+        //Machines
     }
 
     public static void register(){
@@ -57,10 +57,10 @@ public class DNVMBlocks {
         GameRegistry.registerBlock(cryolite_block, cryolite_block.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(rutile_block, rutile_block.getUnlocalizedName().substring(5));
         //Block-Ore
-        GameRegistry.registerBlock(titanium_ore, titanium_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(aluminum_ore, aluminum_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(cryolite_ore, cryolite_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(rutile_ore, rutile_ore.getUnlocalizedName().substring(5));
+        //Machines
     }
 
     public static void registerRenders(){
@@ -70,18 +70,16 @@ public class DNVMBlocks {
         registerRender(cryolite_block);
         registerRender(rutile_block);
         //Block-Ore
-        registerRender(titanium_ore);
         registerRender(aluminum_ore);
         registerRender(cryolite_ore);
         registerRender(rutile_ore);
+        //Machines
         //so many rendering problems...
     }
 
     public static void registerRender(Block block){
         Item item = Item.getItemFromBlock(block);
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
-        // Logging successful load
-        LogHelper.info("Blocks Loaded");
     }
 
 }
