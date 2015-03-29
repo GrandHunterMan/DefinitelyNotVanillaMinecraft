@@ -1,10 +1,6 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
-import com.grandhunterman.definitelynotvanillaminecraft.blocks.BlockTitaniumBlock;
-import com.grandhunterman.definitelynotvanillaminecraft.item.ItemTitaniumIngot;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.WeightedRandom;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -26,6 +22,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  */
 public class DNVMRecipes {
     public static void init() {
+        //blocks
         GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.titanium_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.titanium_ingot});
+        GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.aluminum_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.aluminum_ingot});
+        GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.cryolite_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.cryolite_crystal});
+        GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.rutile_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.rutile_crystal});
     }
 }
