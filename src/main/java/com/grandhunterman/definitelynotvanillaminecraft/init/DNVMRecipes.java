@@ -1,7 +1,13 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
+import com.grandhunterman.definitelynotvanillaminecraft.item.ItemAluminumIngot;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.WeightedRandom;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -27,5 +33,13 @@ public class DNVMRecipes {
         GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.aluminum_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.aluminum_ingot});
         GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.cryolite_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.cryolite_crystal});
         GameRegistry.addShapedRecipe(new ItemStack(DNVMBlocks.rutile_block), new Object[]{"iii", "iii", "iii", 'i', DNVMItems.rutile_crystal});
+        //Ingots
+        GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.titanium_ingot, 9), DNVMBlocks.titanium_block);
+        GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.aluminum_ingot, 9), DNVMBlocks.aluminum_block);
+        GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.cryolite_crystal, 9), DNVMBlocks.cryolite_block);
+        GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.rutile_crystal, 9), DNVMBlocks.rutile_block);
+        //Items
+        GameRegistry.addShapedRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', Blocks.planks, 's', Items.stick});
     }
+
 }

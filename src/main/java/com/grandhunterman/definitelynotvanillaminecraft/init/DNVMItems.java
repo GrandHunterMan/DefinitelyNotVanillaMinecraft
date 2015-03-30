@@ -2,7 +2,6 @@ package com.grandhunterman.definitelynotvanillaminecraft.init;
 
 import com.grandhunterman.definitelynotvanillaminecraft.item.*;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
-import com.grandhunterman.definitelynotvanillaminecraft.utility.LogHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -34,6 +33,8 @@ public class DNVMItems {
     public static Item rutile_crystal;
     public static Item coaly_iron_ingot;
     public static Item steel_ingot;
+    public static Item standard_machine_frame;
+    public static Item bread_board;
 
     public static void init(){
         aluminum_ingot = new ItemAluminumIngot().setUnlocalizedName("aluminum_ingot");
@@ -43,6 +44,8 @@ public class DNVMItems {
         rutile_crystal = new ItemTitaniumIngot().setUnlocalizedName("rutile_crystal");
         coaly_iron_ingot = new ItemCoalyIron().setUnlocalizedName("coaly_iron_ingot");
         steel_ingot = new ItemSteel().setUnlocalizedName("steel_ingot");
+        standard_machine_frame = new ItemStandardMachineFrame().setUnlocalizedName("standard_machine_frame");
+        bread_board = new ItemBreadBoard().setUnlocalizedName("bread_board");
     }
 
     public static void Register(){
@@ -53,6 +56,8 @@ public class DNVMItems {
         GameRegistry.registerItem(rutile_crystal, rutile_crystal.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(coaly_iron_ingot, coaly_iron_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(steel_ingot, steel_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(standard_machine_frame, standard_machine_frame.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(bread_board, bread_board.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
@@ -63,6 +68,8 @@ public class DNVMItems {
         RegisterRender(rutile_crystal);
         RegisterRender(coaly_iron_ingot);
         RegisterRender(steel_ingot);
+        RegisterRender(standard_machine_frame);
+        RegisterRender(bread_board);
 
 
     }

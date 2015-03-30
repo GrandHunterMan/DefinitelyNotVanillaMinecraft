@@ -1,8 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
-
-import com.grandhunterman.definitelynotvanillaminecraft.CreativeTabDNVM;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+package com.grandhunterman.definitelynotvanillaminecraft.item;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -21,9 +17,8 @@ import net.minecraft.block.material.Material;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class OreDNVM extends Block {
-    public OreDNVM(){
-        super(Material.rock);
-        this.setCreativeTab(CreativeTabDNVM.DNVM_TAB);
+public class ItemBreadBoard extends ItemDNVM{
+    public ItemBreadBoard(){
+        super();
     }
 }

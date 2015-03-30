@@ -1,4 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.item;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,8 +17,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.blocks;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockCryoliteOre extends OreDNVM {
-    public BlockCryoliteOre(){
+public class ItemStandardMachineFrame extends ItemDNVM {
+    public ItemStandardMachineFrame(){
         super();
     }
 }

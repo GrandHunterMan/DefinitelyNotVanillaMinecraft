@@ -1,4 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.blocks.ore;
 
 import com.grandhunterman.definitelynotvanillaminecraft.blocks.ore.OreDNVM;
 
@@ -19,8 +19,8 @@ import com.grandhunterman.definitelynotvanillaminecraft.blocks.ore.OreDNVM;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockRutileBlock extends OreDNVM {
-    public BlockRutileBlock(){
+public class BlockCryoliteOre extends OreDNVM {
+    public BlockCryoliteOre(){
         super();
     }
 }

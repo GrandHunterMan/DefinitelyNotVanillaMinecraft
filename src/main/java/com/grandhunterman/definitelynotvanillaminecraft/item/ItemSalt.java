@@ -21,6 +21,5 @@ public class ItemSalt extends ItemDNVM{
 
     public ItemSalt(){
         super();
-        this .setUnlocalizedName("aluminumIngot");
     }
 }

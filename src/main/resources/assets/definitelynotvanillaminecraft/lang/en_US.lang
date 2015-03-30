@@ -8,6 +8,10 @@ tile.cryolite_block.name=Block of Cryolite
 tile.aluminum_ore.name=Bauxite
 tile.cryolite_ore.name=Cryolite Ore
 tile.rutile_ore.name=Rutile Ore
+tile.copper_ore.name=Copper Ore
+tile.tin_ore.name=Tin Ore
+tile.silver_ore.name=Silver Ore
+tile.lead_ore.name=Lead Ore
 
 #Items
 item.aluminum_ingot.name=Aluminum Ingot
@@ -17,6 +21,7 @@ item.cryolite_crystal.name=Cryolite Crystal
 item.rutile_crystal.name=Rutile Crystal
 item.coaly_iron.name=Carbonated Iron
 item.steel.name=Steel
+item.bread_board.name=Bread Board
 
 #Creative Tab
 itemGroup.definitelynotvanillaminecraft=Definitely Not Vanilla Minecraft

@@ -1,8 +1,8 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
 import com.grandhunterman.definitelynotvanillaminecraft.blocks.*;
+import com.grandhunterman.definitelynotvanillaminecraft.blocks.ore.*;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
-import com.grandhunterman.definitelynotvanillaminecraft.utility.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -36,7 +36,14 @@ public class DNVMBlocks {
     public static Block aluminum_ore;
     public static Block cryolite_ore;
     public static Block rutile_ore;
+    public static Block copper_ore;
+    public static Block tin_ore;
+    public static Block lead_ore;
+    public static Block silver_ore;
+
     //Machines
+    public static Block drill_press;
+
 
     public static void init(){
         aluminum_block = new BlockAluminumBlock().setUnlocalizedName("aluminum_block");
@@ -47,6 +54,10 @@ public class DNVMBlocks {
         aluminum_ore = new BlockAluminumOre().setUnlocalizedName("aluminum_ore");
         cryolite_ore = new BlockCryoliteOre().setUnlocalizedName("cryolite_ore");
         rutile_ore = new BlockRutileOre().setUnlocalizedName("rutile_ore");
+        copper_ore = new BlockCopperOre().setUnlocalizedName("copper_ore");
+        tin_ore = new BlockTinOre().setUnlocalizedName("tin_ore");
+        lead_ore = new BlockLeadOre().setUnlocalizedName("lead_ore");
+        silver_ore = new BlockSilverOre().setUnlocalizedName("silver_ore");
         //Machines
     }
 
@@ -60,6 +71,10 @@ public class DNVMBlocks {
         GameRegistry.registerBlock(aluminum_ore, aluminum_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(cryolite_ore, cryolite_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(rutile_ore, rutile_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(copper_ore, copper_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(tin_ore, tin_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(lead_ore, lead_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(silver_ore, silver_ore.getUnlocalizedName().substring(5));
         //Machines
     }
 
@@ -73,6 +88,10 @@ public class DNVMBlocks {
         registerRender(aluminum_ore);
         registerRender(cryolite_ore);
         registerRender(rutile_ore);
+        registerRender(copper_ore);
+        registerRender(tin_ore);
+        registerRender(lead_ore);
+        registerRender(silver_ore);
         //Machines
         //so many rendering problems...
     }

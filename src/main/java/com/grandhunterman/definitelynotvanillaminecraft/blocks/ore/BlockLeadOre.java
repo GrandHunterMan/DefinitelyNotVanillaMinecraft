@@ -1,6 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
-
-import com.grandhunterman.definitelynotvanillaminecraft.blocks.ore.OreDNVM;
+package com.grandhunterman.definitelynotvanillaminecraft.blocks.ore;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -19,8 +17,8 @@ import com.grandhunterman.definitelynotvanillaminecraft.blocks.ore.OreDNVM;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockRutileBlock extends OreDNVM {
-    public BlockRutileBlock(){
+public class BlockLeadOre extends OreDNVM {
+    public BlockLeadOre(){
         super();
     }
 }
