@@ -20,4 +20,7 @@ package com.grandhunterman.definitelynotvanillaminecraft.item;
 public class ItemCoalyIron extends ItemDNVM {
 
 
+    public ItemCoalyIron() {
+        super();
+    }
 }

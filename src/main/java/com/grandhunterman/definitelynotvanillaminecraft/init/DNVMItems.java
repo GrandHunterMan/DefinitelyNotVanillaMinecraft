@@ -31,6 +31,10 @@ public class DNVMItems {
     public static Item titanium_ingot;
     public static Item cryolite_crystal;
     public static Item rutile_crystal;
+    public static Item copper_ingot;
+    public static Item tin_ingot;
+    public static Item silver_ingot;
+    public static Item lead_ingot;
     public static Item coaly_iron_ingot;
     public static Item steel_ingot;
     public static Item standard_machine_frame;
@@ -40,8 +44,12 @@ public class DNVMItems {
         aluminum_ingot = new ItemAluminumIngot().setUnlocalizedName("aluminum_ingot");
         salt = new ItemSalt().setUnlocalizedName("salt");
         titanium_ingot = new ItemTitaniumIngot().setUnlocalizedName("titanium_ingot");
-        cryolite_crystal = new ItemTitaniumIngot().setUnlocalizedName("cryolite_crystal");
-        rutile_crystal = new ItemTitaniumIngot().setUnlocalizedName("rutile_crystal");
+        cryolite_crystal = new ItemCryoliteCrystal().setUnlocalizedName("cryolite_crystal");
+        rutile_crystal = new ItemRutileCrystal().setUnlocalizedName("rutile_crystal");
+        copper_ingot = new ItemCopperIngot().setUnlocalizedName("copper_ingot");
+        tin_ingot = new ItemTinIngot().setUnlocalizedName("tin_ingot");
+        silver_ingot = new ItemSilverIngot().setUnlocalizedName("silver_ingot");
+        lead_ingot = new ItemLeadIngot().setUnlocalizedName("lead_ingot");
         coaly_iron_ingot = new ItemCoalyIron().setUnlocalizedName("coaly_iron_ingot");
         steel_ingot = new ItemSteel().setUnlocalizedName("steel_ingot");
         standard_machine_frame = new ItemStandardMachineFrame().setUnlocalizedName("standard_machine_frame");
@@ -54,6 +62,10 @@ public class DNVMItems {
         GameRegistry.registerItem(titanium_ingot, titanium_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(cryolite_crystal, cryolite_crystal.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(rutile_crystal, rutile_crystal.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(copper_ingot, copper_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(tin_ingot, tin_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(silver_ingot, silver_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(lead_ingot, lead_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(coaly_iron_ingot, coaly_iron_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(steel_ingot, steel_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(standard_machine_frame, standard_machine_frame.getUnlocalizedName().substring(5));
@@ -66,6 +78,10 @@ public class DNVMItems {
         RegisterRender(titanium_ingot);
         RegisterRender(cryolite_crystal);
         RegisterRender(rutile_crystal);
+        RegisterRender(copper_ingot);
+        RegisterRender(tin_ingot);
+        RegisterRender(silver_ingot);
+        RegisterRender(lead_ingot);
         RegisterRender(coaly_iron_ingot);
         RegisterRender(steel_ingot);
         RegisterRender(standard_machine_frame);

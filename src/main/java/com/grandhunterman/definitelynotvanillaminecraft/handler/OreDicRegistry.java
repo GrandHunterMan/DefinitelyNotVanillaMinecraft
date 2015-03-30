@@ -1,5 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft.handler;
 
+import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMItems;
+import static net.minecraftforge.oredict.OreDictionary.registerOre;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -20,6 +22,12 @@ package com.grandhunterman.definitelynotvanillaminecraft.handler;
  */
 public class OreDicRegistry {
     public static void RegOres(){
-
+        registerOre("ingotTitanium", DNVMItems.titanium_ingot);
+        registerOre("ingotAluminum", DNVMItems.aluminum_ingot);
+        registerOre("ingotSteel", DNVMItems.steel_ingot);
+        registerOre("ingotCopper", DNVMItems.copper_ingot);
+        registerOre("ingotTin", DNVMItems.tin_ingot);
+        registerOre("ingotSilver", DNVMItems.silver_ingot);
+        registerOre("ingotLead", DNVMItems.lead_ingot);
     }
 }

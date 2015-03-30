@@ -41,6 +41,8 @@ public class DNVMRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.rutile_crystal, 9), DNVMBlocks.rutile_block);
         //Items
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', "plankWood", 's', "stickWood"}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.standard_machine_frame), new Object[]{"sss", "s s", "sss", 's', "ingotSteel"}));
+
 
     }
 

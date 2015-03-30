@@ -19,4 +19,7 @@ package com.grandhunterman.definitelynotvanillaminecraft.item;
  */
 public class ItemTitaniumIngot extends ItemDNVM {
 
+    public ItemTitaniumIngot() {
+        super();
+    }
 }

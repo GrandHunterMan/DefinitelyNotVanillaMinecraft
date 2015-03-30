@@ -17,5 +17,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.item;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class ItemCryoliteCrystal {
+public class ItemCryoliteCrystal extends ItemDNVM{
+    public ItemCryoliteCrystal(){
+        super();
+    }
 }

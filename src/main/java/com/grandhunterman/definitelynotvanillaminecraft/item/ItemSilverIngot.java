@@ -1,6 +1,5 @@
 package com.grandhunterman.definitelynotvanillaminecraft.item;
 
-
 /**
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.ca)
@@ -18,8 +17,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.item;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class ItemSteel extends ItemDNVM {
-   public ItemSteel(){
-       super();
-   }
+public class ItemSilverIngot extends ItemDNVM {
+    public ItemSilverIngot(){
+        super();
+    }
 }
