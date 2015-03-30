@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.WeightedRandom;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -39,7 +40,9 @@ public class DNVMRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.cryolite_crystal, 9), DNVMBlocks.cryolite_block);
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.rutile_crystal, 9), DNVMBlocks.rutile_block);
         //Items
-        GameRegistry.addShapedRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', Blocks.planks, 's', Items.stick});
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', "plankWood", 's', "stickWood"}));
+
     }
+
 
 }

@@ -1,4 +1,5 @@
-package com.grandhunterman.definitelynotvanillaminecraft.crafting;
+package com.grandhunterman.definitelynotvanillaminecraft.handler;
+
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,5 +18,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.crafting;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class CraftingHandler {
+public class OreDicRegistry {
+    public static void RegOres(){
+
+    }
 }
