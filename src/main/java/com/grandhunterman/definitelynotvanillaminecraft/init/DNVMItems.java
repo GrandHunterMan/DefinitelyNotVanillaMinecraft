@@ -1,6 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
 import com.grandhunterman.definitelynotvanillaminecraft.item.*;
+import com.grandhunterman.definitelynotvanillaminecraft.item.minerals.*;
 import com.grandhunterman.definitelynotvanillaminecraft.reference.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;

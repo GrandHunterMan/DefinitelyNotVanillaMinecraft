@@ -1,13 +1,7 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
-import com.grandhunterman.definitelynotvanillaminecraft.item.ItemAluminumIngot;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.WeightedRandom;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 /**

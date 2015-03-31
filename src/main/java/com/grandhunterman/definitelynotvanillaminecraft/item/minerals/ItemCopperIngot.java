@@ -1,4 +1,6 @@
-package com.grandhunterman.definitelynotvanillaminecraft.item;
+package com.grandhunterman.definitelynotvanillaminecraft.item.minerals;
+
+import com.grandhunterman.definitelynotvanillaminecraft.item.ItemDNVM;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,8 +19,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.item;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class ItemSilverIngot extends ItemDNVM {
-    public ItemSilverIngot(){
+public class ItemCopperIngot extends ItemDNVM {
+    public ItemCopperIngot(){
         super();
     }
 }
