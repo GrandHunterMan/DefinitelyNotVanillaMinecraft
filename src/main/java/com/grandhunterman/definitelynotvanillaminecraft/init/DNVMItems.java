@@ -40,6 +40,15 @@ public class DNVMItems {
     public static Item steel_ingot;
     public static Item standard_machine_frame;
     public static Item bread_board;
+    public static Item nickel_ingot;
+    public static Item low_nichrome_ingot;
+    public static Item low_nichrome_wire;
+    public static Item basic_resistor;
+    public static Item chrome_ingot;
+    public static Item basic_capacitor;
+    public static Item basic_switch;
+    public static Item improvised_circuit_board;
+
 
     public static void init(){
         aluminum_ingot = new ItemAluminumIngot().setUnlocalizedName("aluminum_ingot");
@@ -55,6 +64,14 @@ public class DNVMItems {
         steel_ingot = new ItemSteel().setUnlocalizedName("steel_ingot");
         standard_machine_frame = new ItemStandardMachineFrame().setUnlocalizedName("standard_machine_frame");
         bread_board = new ItemBreadBoard().setUnlocalizedName("bread_board");
+        nickel_ingot = new ItemNickelIngot().setUnlocalizedName("nickel_ingot");
+        low_nichrome_ingot = new ItemLowNichromeIngot().setUnlocalizedName("low_nichrome_ingot");
+        low_nichrome_wire = new ItemLowNichromeWire().setUnlocalizedName("low_nichrome_wire");
+        basic_resistor = new ItemBasicResistor().setUnlocalizedName("basic_resistor");
+        chrome_ingot = new ItemChromiumIngot().setUnlocalizedName("chrome_ingot");
+        basic_capacitor = new ItemBasicCapacitor().setUnlocalizedName("basic_capacitor");
+        basic_switch = new ItemBasicSwitch().setUnlocalizedName("basic_switch");
+        improvised_circuit_board = new ItemImprovisedCircuitBoard().setUnlocalizedName("improvised_circuit_board");
     }
 
     public static void Register(){
@@ -71,6 +88,14 @@ public class DNVMItems {
         GameRegistry.registerItem(steel_ingot, steel_ingot.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(standard_machine_frame, standard_machine_frame.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(bread_board, bread_board.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(nickel_ingot, nickel_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(low_nichrome_ingot, low_nichrome_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(low_nichrome_wire, low_nichrome_wire.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(basic_resistor, basic_resistor.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(chrome_ingot, chrome_ingot.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(basic_capacitor, basic_capacitor.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(basic_switch, basic_switch.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(improvised_circuit_board, improvised_circuit_board.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
@@ -87,6 +112,14 @@ public class DNVMItems {
         RegisterRender(steel_ingot);
         RegisterRender(standard_machine_frame);
         RegisterRender(bread_board);
+        RegisterRender(nickel_ingot);
+        RegisterRender(low_nichrome_ingot);
+        RegisterRender(low_nichrome_wire);
+        RegisterRender(basic_resistor);
+        RegisterRender(chrome_ingot);
+        RegisterRender(basic_capacitor);
+        RegisterRender(basic_switch);
+        RegisterRender(improvised_circuit_board);
 
 
     }

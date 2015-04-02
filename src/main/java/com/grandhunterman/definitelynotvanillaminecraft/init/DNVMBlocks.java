@@ -40,6 +40,7 @@ public class DNVMBlocks {
     public static Block tin_ore;
     public static Block lead_ore;
     public static Block silver_ore;
+    public static Block nickel_ore;
 
     //Machines
     public static Block drill_press;
@@ -58,6 +59,7 @@ public class DNVMBlocks {
         tin_ore = new BlockTinOre().setUnlocalizedName("tin_ore");
         lead_ore = new BlockLeadOre().setUnlocalizedName("lead_ore");
         silver_ore = new BlockSilverOre().setUnlocalizedName("silver_ore");
+        nickel_ore = new BlockNickelOre().setUnlocalizedName("nickel_ore");
         //Machines
     }
 
@@ -75,6 +77,7 @@ public class DNVMBlocks {
         GameRegistry.registerBlock(tin_ore, tin_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(lead_ore, lead_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(silver_ore, silver_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(nickel_ore, nickel_ore.getUnlocalizedName().substring(5));
         //Machines
     }
 
@@ -92,6 +95,7 @@ public class DNVMBlocks {
         registerRender(tin_ore);
         registerRender(lead_ore);
         registerRender(silver_ore);
+        registerRender(nickel_ore);
         //Machines
         //so many rendering problems...
     }

@@ -29,5 +29,8 @@ public class OreDicRegistry {
         registerOre("ingotTin", DNVMItems.tin_ingot);
         registerOre("ingotSilver", DNVMItems.silver_ingot);
         registerOre("ingotLead", DNVMItems.lead_ingot);
+        registerOre("ingotNickel", DNVMItems.nickel_ingot);
+        registerOre("ingotChromium", DNVMItems.chrome_ingot);
+
     }
 }

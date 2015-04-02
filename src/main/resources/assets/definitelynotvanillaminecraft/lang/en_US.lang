@@ -12,6 +12,7 @@ tile.copper_ore.name=Copper Ore
 tile.tin_ore.name=Tin Ore
 tile.silver_ore.name=Silver Ore
 tile.lead_ore.name=Lead Ore
+tile.nickel_ore.name=Nickel Ore
 
 #Items
 item.aluminum_ingot.name=Aluminum Ingot
@@ -19,9 +20,16 @@ item.salt.name=Salt
 item.titanium_ingot.name=Titanium Ingot
 item.cryolite_crystal.name=Cryolite Crystal
 item.rutile_crystal.name=Rutile Crystal
-item.coaly_iron.name=Carbonated Iron
-item.steel.name=Steel
+item.coaly_iron_ingot.name=Carbonated Iron
+item.steel_ingot.name=Steel
 item.bread_board.name=Bread Board
+item.standard_machine_frame.name=Standard Machine Frame
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.silver_ingot.name=Silver Ingot
+item.lead_ingot.name=Lead Ingot
+item.nickel_ingot.name=Nickel Ingot
+item.low_nichrome_ingot.name=Cheap Nichrome Ingot
 
 #Creative Tab
 itemGroup.definitelynotvanillaminecraft=Definitely Not Vanilla Minecraft

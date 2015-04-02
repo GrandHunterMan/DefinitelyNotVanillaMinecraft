@@ -3,6 +3,7 @@ package com.grandhunterman.definitelynotvanillaminecraft.init;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -36,8 +37,11 @@ public class DNVMRecipes {
         //Items
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', "plankWood", 's', "stickWood"}));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.standard_machine_frame), new Object[]{"sss", "s s", "sss", 's', "ingotSteel"}));
-
-
+        //GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(DNVMItems.low_nichrome_ingot, 9)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.low_nichrome_wire, 32), new Object[]{"iii", "i i", "iii", 'i', DNVMItems.low_nichrome_ingot}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.basic_resistor), new Object[]{"iii", "csc", "iii", 'i', DNVMItems.low_nichrome_wire, 'c', "ingotCopper", 's', "stickWood"}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.basic_capacitor), new Object[]{"sws", "sws", "c c", 's', "ingotSilver", 'w', "plankWood", 'c', "ingotCopper"}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.basic_switch), new Object[]{" s ", "wxw", "c c", 'x', "ingotSilver", 'w', "plankWood", 'c', "ingotCopper", 's', "stickWood"}));
     }
 
 

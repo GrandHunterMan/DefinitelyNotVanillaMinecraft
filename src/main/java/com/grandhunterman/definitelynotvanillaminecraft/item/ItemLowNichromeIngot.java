@@ -1,4 +1,4 @@
-package com.grandhunterman.definitelynotvanillaminecraft.blocks;
+package com.grandhunterman.definitelynotvanillaminecraft.item;
 
 /**
  * Definitely Not Vanilla Minecraft
@@ -17,9 +17,8 @@ package com.grandhunterman.definitelynotvanillaminecraft.blocks;
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-public class BlockDrillPress extends MachineBlockDNVM {
-    public BlockDrillPress(){
+public class ItemLowNichromeIngot extends ItemDNVM {
+    public ItemLowNichromeIngot(){
         super();
-        //Maybe in V1.0 or 2.0 I'll re-write it and make it a proper model.
     }
 }
