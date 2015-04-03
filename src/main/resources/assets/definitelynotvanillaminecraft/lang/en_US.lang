@@ -13,6 +13,7 @@ tile.tin_ore.name=Tin Ore
 tile.silver_ore.name=Silver Ore
 tile.lead_ore.name=Lead Ore
 tile.nickel_ore.name=Nickel Ore
+tile.chrome_ore.name=Chromium Ore
 
 #Items
 item.aluminum_ingot.name=Aluminum Ingot
@@ -29,7 +30,13 @@ item.tin_ingot.name=Tin Ingot
 item.silver_ingot.name=Silver Ingot
 item.lead_ingot.name=Lead Ingot
 item.nickel_ingot.name=Nickel Ingot
+item.chrome_ingot.name=Chromium Ingot
 item.low_nichrome_ingot.name=Cheap Nichrome Ingot
+item.low_nichrome_wire.name=Cheap Nichrome Wire
+item.basic_resistor.name=Basic Resistor
+item.basic_capacitor.name=Basic Capacitor
+item.basic_switch.name=Basic Switch
+item.improvised_circuit_board.name=Improvised Circuit Board
 
 #Creative Tab
 itemGroup.definitelynotvanillaminecraft=Definitely Not Vanilla Minecraft
