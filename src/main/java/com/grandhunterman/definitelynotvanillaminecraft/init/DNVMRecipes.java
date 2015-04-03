@@ -1,5 +1,6 @@
 package com.grandhunterman.definitelynotvanillaminecraft.init;
 
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
@@ -34,6 +35,7 @@ public class DNVMRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.aluminum_ingot, 9), DNVMBlocks.aluminum_block);
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.cryolite_crystal, 9), DNVMBlocks.cryolite_block);
         GameRegistry.addShapelessRecipe(new ItemStack(DNVMItems.rutile_crystal, 9), DNVMBlocks.rutile_block);
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.coaly_iron_ingot, 8), new Object[]{"iii", "iii", "iic", 'i', "ingotIron", 'c', Items.coal}));
         //Items
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.bread_board), new Object[]{"pp ", "pps", "pp ", 'p', "plankWood", 's', "stickWood"}));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.standard_machine_frame), new Object[]{"sss", "s s", "sss", 's', "ingotSteel"}));

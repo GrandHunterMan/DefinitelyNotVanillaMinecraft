@@ -38,5 +38,8 @@ item.basic_capacitor.name=Basic Capacitor
 item.basic_switch.name=Basic Switch
 item.improvised_circuit_board.name=Improvised Circuit Board
 
+#Machines
+item.drill_press.name=Drill Press
+
 #Creative Tab
 itemGroup.definitelynotvanillaminecraft=Definitely Not Vanilla Minecraft
