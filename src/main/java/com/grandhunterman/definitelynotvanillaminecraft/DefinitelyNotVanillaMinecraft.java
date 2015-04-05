@@ -19,6 +19,7 @@ package com.grandhunterman.definitelynotvanillaminecraft;
  */
 
 import com.grandhunterman.definitelynotvanillaminecraft.handler.ConfigurationHandler;
+import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMSmelting;
 import com.grandhunterman.definitelynotvanillaminecraft.handler.OreDicRegistry;
 import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMBlocks;
 import com.grandhunterman.definitelynotvanillaminecraft.init.DNVMItems;
@@ -54,7 +55,8 @@ public class DefinitelyNotVanillaMinecraft
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
         proxy.registerRenders();
-        DNVMRecipes.init();
+        DNVMRecipes.crafting();
+        DNVMSmelting.smelting();
         OreDicRegistry.RegOres();
         LogHelper.info("Recipes Loaded");
         LogHelper.info("Init Complete");

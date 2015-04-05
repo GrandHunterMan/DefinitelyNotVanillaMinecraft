@@ -1,5 +1,5 @@
 {
-  "parent": "definitelynotvanillaminecraft:block/rutile_ore",
+  "parent": "definitelynotvanillaminecraft:block/nickel_ore",
   "display": {
     "thirdperson": {
       "rotation": [ 10, -45, 170 ],

@@ -31,6 +31,7 @@ public class OreDicRegistry {
         registerOre("ingotLead", DNVMItems.lead_ingot);
         registerOre("ingotNickel", DNVMItems.nickel_ingot);
         registerOre("ingotChromium", DNVMItems.chrome_ingot);
+        registerOre("machineFrame", DNVMItems.standard_machine_frame);
 
     }
 }

@@ -50,6 +50,7 @@ public class DNVMItems {
     public static Item basic_switch;
     public static Item basic_capacitor;
     public static Item basic_resistor;
+    public static Item basic_plug;
     public static Item low_nichrome_wire;
     public static Item bread_board;
     public static Item standard_machine_frame;
@@ -80,6 +81,7 @@ public class DNVMItems {
         basic_resistor = new ItemBasicResistor().setUnlocalizedName("basic_resistor");
         basic_capacitor = new ItemBasicCapacitor().setUnlocalizedName("basic_capacitor");
         basic_switch = new ItemBasicSwitch().setUnlocalizedName("basic_switch");
+        basic_plug = new ItemBasicPlug().setUnlocalizedName("basic_plug");
         improvised_circuit_board = new ItemImprovisedCircuitBoard().setUnlocalizedName("improvised_circuit_board");
     }
 
@@ -108,6 +110,7 @@ public class DNVMItems {
         GameRegistry.registerItem(basic_resistor, basic_resistor.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(basic_capacitor, basic_capacitor.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(basic_switch, basic_switch.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(basic_plug, basic_plug.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(improvised_circuit_board, improvised_circuit_board.getUnlocalizedName().substring(5));
     }
 
@@ -137,6 +140,7 @@ public class DNVMItems {
         RegisterRender(basic_resistor);
         RegisterRender(basic_capacitor);
         RegisterRender(basic_switch);
+        RegisterRender(basic_plug);
         RegisterRender(improvised_circuit_board);
 
 
