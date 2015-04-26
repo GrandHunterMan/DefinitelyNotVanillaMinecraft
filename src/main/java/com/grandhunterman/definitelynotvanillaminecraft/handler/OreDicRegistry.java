@@ -32,6 +32,9 @@ public class OreDicRegistry {
         registerOre("ingotNickel", DNVMItems.nickel_ingot);
         registerOre("ingotChromium", DNVMItems.chrome_ingot);
         registerOre("machineFrame", DNVMItems.standard_machine_frame);
+        registerOre("dustSalt", DNVMItems.salt);
+        registerOre("gemRutile", DNVMItems.rutile_crystal);
+        registerOre("gemCryolite", DNVMItems.cryolite_crystal);
 
     }
 }

@@ -42,9 +42,12 @@ public class DNVMBlocks {
     public static Block silver_ore;
     public static Block nickel_ore;
     public static Block chrome_ore;
+    public static Block river_gravel;
 
     //Machines
     public static Block drill_press;
+    public static Block roller_press;
+    public static Block laminator;
 
 
     public static void init(){
@@ -62,9 +65,12 @@ public class DNVMBlocks {
         silver_ore = new BlockSilverOre().setUnlocalizedName("silver_ore");
         nickel_ore = new BlockNickelOre().setUnlocalizedName("nickel_ore");
         chrome_ore = new BlockChromiumOre().setUnlocalizedName("chrome_ore");
+        river_gravel = new BlockRiverGravel().setUnlocalizedName("river_gravel");
 
         //Machines
         drill_press = new BlockDrillPress().setUnlocalizedName("drill_press");
+        roller_press = new BlockRollerPress().setUnlocalizedName("roller_press");
+        laminator = new BlockLaminator().setUnlocalizedName("laminator");
     }
 
     public static void register(){
@@ -83,9 +89,12 @@ public class DNVMBlocks {
         GameRegistry.registerBlock(silver_ore, silver_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(nickel_ore, nickel_ore.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(chrome_ore, chrome_ore.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(river_gravel, river_gravel.getUnlocalizedName().substring(5));
 
         //Machines
         GameRegistry.registerBlock(drill_press, drill_press.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(roller_press, roller_press.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(laminator, laminator.getUnlocalizedName().substring(5));
     }
 
     public static void registerRenders(){
@@ -104,8 +113,11 @@ public class DNVMBlocks {
         registerRender(silver_ore);
         registerRender(nickel_ore);
         registerRender(chrome_ore);
+        registerRender(river_gravel);
         //Machines
         registerRender(drill_press);
+        registerRender(roller_press);
+        registerRender(laminator);
         //so many rendering problems...
     }
 

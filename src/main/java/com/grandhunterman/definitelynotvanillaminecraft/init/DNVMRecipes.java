@@ -48,7 +48,7 @@ public class DNVMRecipes {
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(DNVMItems.low_nichrome_ingot, 9), "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotChromium", "ingotChromium"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMItems.low_nichrome_wire, 32), new Object[]{"iii", "i i", "iii", 'i', DNVMItems.low_nichrome_ingot}));
         //Basic Machines
-        //GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMBlocks.drill_press), new Object[]{"isi", "tmt", "ici", 'm', "machineFrame", 'i', "ingotIron", 'c', 's', Items.stick, 't', "ingotTin", DNVMItems.improvised_circuit_board}));
+        //GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(DNVMBlocks.drill_press), new Object[]{"isi", "tmt", "ici", 'm', "machineFrame", 'i', "ingotIron, 'c', 's', Items.stick, 't', "ingotTin", DNVMItems.improvised_circuit_board}));
     }
 
 }

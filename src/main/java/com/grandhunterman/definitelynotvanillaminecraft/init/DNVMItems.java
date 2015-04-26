@@ -54,6 +54,12 @@ public class DNVMItems {
     public static Item low_nichrome_wire;
     public static Item bread_board;
     public static Item standard_machine_frame;
+    public static Item gold_pan;
+    public static Item aluminum_foil;
+    public static Item copper_foil;
+    //food
+    public static Item g;
+
 
     public static void init(){
         //Ingots
@@ -83,6 +89,10 @@ public class DNVMItems {
         basic_switch = new ItemBasicSwitch().setUnlocalizedName("basic_switch");
         basic_plug = new ItemBasicPlug().setUnlocalizedName("basic_plug");
         improvised_circuit_board = new ItemImprovisedCircuitBoard().setUnlocalizedName("improvised_circuit_board");
+        gold_pan = new ItemGoldPan().setUnlocalizedName("gold_pan");
+        aluminum_foil = new ItemAluminumFoil().setUnlocalizedName("aluminum_foil");
+        copper_foil = new ItemCopperFoil().setUnlocalizedName("copper_foil");
+        //food
     }
 
     public static void Register(){
@@ -112,6 +122,10 @@ public class DNVMItems {
         GameRegistry.registerItem(basic_switch, basic_switch.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(basic_plug, basic_plug.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(improvised_circuit_board, improvised_circuit_board.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(gold_pan, gold_pan.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(aluminum_foil, aluminum_foil.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(copper_foil, copper_foil.getUnlocalizedName().substring(5));
+        //food
     }
 
     public static void registerRenders(){
@@ -142,6 +156,10 @@ public class DNVMItems {
         RegisterRender(basic_switch);
         RegisterRender(basic_plug);
         RegisterRender(improvised_circuit_board);
+        RegisterRender(gold_pan);
+        RegisterRender(aluminum_foil);
+        RegisterRender(copper_foil);
+        //food
 
 
     }

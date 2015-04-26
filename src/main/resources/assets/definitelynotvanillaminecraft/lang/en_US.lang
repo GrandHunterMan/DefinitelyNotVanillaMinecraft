@@ -33,17 +33,24 @@ item.nickel_ingot.name=Nickel Ingot
 item.chrome_ingot.name=Chromium Ingot
 item.low_nichrome_ingot.name=Cheap Nichrome Ingot
 item.low_nichrome_wire.name=Cheap Nichrome Wire
+item.aluminum_foil.name=Aluminum Foil
+item.copper_foil.name=Copper Foil
 
 
 #Electronics
 item.basic_resistor.name=Basic Resistor
 item.basic_capacitor.name=Basic Capacitor
 item.basic_switch.name=Basic Switch
-item.improvised_circuit_board.name=Improvised Circuit Board
+item.improvised_circuit_board.name=Basic Circuit Board
 item.basic_plug.name=Basic Plug
 
 #Machines
 tile.drill_press.name=Drill Press
+tile.roller_press.name=Roller Press
+tile.laminator.name=laminator
+
+#Tools
+item.gold_pan.name=Gold Pan
 
 #Creative Tab
 itemGroup.definitelynotvanillaminecraft=Definitely Not Vanilla Minecraft
