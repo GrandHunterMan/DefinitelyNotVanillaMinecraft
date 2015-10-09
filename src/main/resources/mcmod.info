@@ -1,16 +1,16 @@
 [
 {
-  "modid": "DefinitelyNotVanillaMinecraft",
+  "modid": "dnvm",
   "name": "Definitely Not Vanilla Minecraft",
-  "description": "GrandHunterMan's first mod. To be enhanced.",
+  "description": "A mod fot Minecraft 1.7.10. Adds a lot of new content.",
   "version": "0.1",
-  "mcversion": "1.8.0",
-  "url": "",
+  "mcversion": "1.7.10",
+  "url": "www.grandhunterman.com",
   "updateUrl": "",
   "authorList": [
-    "pahimar"
+    "GrandHunterMan"
   ],
-  "credits": "GrandHunterMan - Everything so far. Pahimar - teaching me everything",
+  "credits": "Thanks to all my supporters and teachers!",
   "logoFile": "",
   "screenshots": [
   ],

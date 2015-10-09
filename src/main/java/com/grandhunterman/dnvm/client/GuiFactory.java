@@ -1,13 +1,16 @@
-package com.grandhunterman.definitelynotvanillaminecraft.client.gui;
+package com.grandhunterman.dnvm.client;
 
+import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
-import net.minecraftforge.fml.client.IModGuiFactory;
 
 import java.util.Set;
 
-
-public class GUIFactory implements IModGuiFactory {
+/**
+ * Definitely Not Vanilla Minecraft
+ * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.com)
+ */
+public class GuiFactory implements IModGuiFactory {
     @Override
     public void initialize(Minecraft minecraftInstance) {
 
@@ -15,7 +18,7 @@ public class GUIFactory implements IModGuiFactory {
 
     @Override
     public Class<? extends GuiScreen> mainConfigGuiClass() {
-        return ModGuiConfig.class;
+        return DnvmGuiConfig.class;
     }
 
     @Override
