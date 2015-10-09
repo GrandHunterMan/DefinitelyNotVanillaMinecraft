@@ -1,1 +1,13 @@
+#Items
 item.dnvm:dustSalt.name=Salt
+item.dnvm:ingotTitanium.name=Titanium Ingot
+item.dnvm:ingotAluminum.name=Aluminum Ingot
+item.dnvm:crystalRutile.name=Rutile Crystal
+item.dnvm:crystalCryolite.name=Cryolite Crystal
+item.dnvm:ingotCopper.name=Copper Ingot
+item.dnvm:ingotChrome.name=Chromium Ingot
+
+
+#Blocks
+tile.dnvm:blockSalt.name=Block of Salt
+tile.dnvm.blockTitanium.name=Block of Titanium

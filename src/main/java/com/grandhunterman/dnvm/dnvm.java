@@ -6,6 +6,7 @@ package com.grandhunterman.dnvm;
  */
 
 import com.grandhunterman.dnvm.handler.ConfigurationHandler;
+import com.grandhunterman.dnvm.init.BlockInit;
 import com.grandhunterman.dnvm.init.ItemInit;
 import com.grandhunterman.dnvm.proxy.IProxy;
 import com.grandhunterman.dnvm.reference.General;
@@ -31,9 +32,10 @@ public class dnvm {
     //PREINIT
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event){
-     ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        ItemInit.init();
+       ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+       FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+       ItemInit.init();
+       BlockInit.init();
     }
 
     //INIT
