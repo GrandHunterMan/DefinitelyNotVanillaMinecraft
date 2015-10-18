@@ -1,5 +1,6 @@
 package com.grandhunterman.dnvm.items;
 
+import com.grandhunterman.dnvm.handler.CreativeTab;
 import com.grandhunterman.dnvm.reference.General;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,6 +15,7 @@ import net.minecraft.item.ItemStack;
 public class ItemDNVM extends Item {
     public ItemDNVM(){
         super();
+        this.setCreativeTab(CreativeTab.DNVM_GENERAL);
 
     }
     @Override

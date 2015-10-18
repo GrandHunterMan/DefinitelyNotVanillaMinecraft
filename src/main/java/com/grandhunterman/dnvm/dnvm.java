@@ -8,6 +8,8 @@ package com.grandhunterman.dnvm;
 import com.grandhunterman.dnvm.handler.ConfigurationHandler;
 import com.grandhunterman.dnvm.init.BlockInit;
 import com.grandhunterman.dnvm.init.ItemInit;
+import com.grandhunterman.dnvm.init.OreDictRegister;
+import com.grandhunterman.dnvm.init.Recipes;
 import com.grandhunterman.dnvm.proxy.IProxy;
 import com.grandhunterman.dnvm.reference.General;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -36,12 +38,13 @@ public class dnvm {
        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
        ItemInit.init();
        BlockInit.init();
+       OreDictRegister.Register();
     }
 
     //INIT
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+       Recipes.init();
     }
 
     //POSTINIT

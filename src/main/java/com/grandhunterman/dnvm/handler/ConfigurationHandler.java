@@ -14,7 +14,7 @@ import java.io.File;
 public class ConfigurationHandler {
 
     public static Configuration configuration;
-    public static boolean test = false;
+    public static boolean grass_recipe = true;
 
     public static void init(File configFile) {
        if (configuration == null){
@@ -36,7 +36,7 @@ public class ConfigurationHandler {
 
 
     private static void loadConfiguration(){
-        test = configuration.getBoolean("configValue", configuration.CATEGORY_GENERAL, false, "This is a test");
+        grass_recipe = configuration.getBoolean("grassRecipe", configuration.CATEGORY_GENERAL, true, "Can craft grass blocks with seeds and dirt");
         if (configuration.hasChanged()){
             configuration.save();
         }

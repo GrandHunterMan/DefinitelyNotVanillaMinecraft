@@ -6,8 +6,33 @@ item.dnvm:crystalRutile.name=Rutile Crystal
 item.dnvm:crystalCryolite.name=Cryolite Crystal
 item.dnvm:ingotCopper.name=Copper Ingot
 item.dnvm:ingotChrome.name=Chromium Ingot
+item.dnvm:ingotNickel.name=Nickel Ingot
+item.dnvm:ingotTin.name=Tin Ingot
+item.dnvm:ingotSilver.name=Silver Ingot
+item.dnvm:ingotLead.name=Lead Ingot
+item.dnvm:ingotPoorNichrome.name=Contaminated Nichrome Ingot
 
 
 #Blocks
 tile.dnvm:blockSalt.name=Block of Salt
-tile.dnvm.blockTitanium.name=Block of Titanium
+tile.dnvm:blockTitanium.name=Block of Titanium
+
+#Ores
+tile.dnvm:oreRutile.name=Rutile Ore
+tile.dnvm:oreCryolite.name=Cryolite Ore
+tile.dnvm:oreAluminum.name=Aluminum Ore
+tile.dnvm:oreCopper.name=Copper Ore
+tile.dnvm:oreLead.name=Lead Ore
+tile.dnvm:oreSilver.name=Silver Ore
+tile.dnvm:oreChrome.name=Chromium Ore
+tile.dnvm:oreNickel.name=Nickel Ore
+tile.dnvm:oreTin.name=Tin Ore
+
+#Electronics
+item.dnvm:breadBoard.name=Bread Board
+item.dnvm:toggleSwitch.name=Toggle Switch
+item.dnvm:basicCapacitor.name=Basic Capacitor
+item.dnvm:basicResistor.name=Basic Resistor
+
+
+itemGroup.dnvm=Definitely Not Vanilla Minecraft

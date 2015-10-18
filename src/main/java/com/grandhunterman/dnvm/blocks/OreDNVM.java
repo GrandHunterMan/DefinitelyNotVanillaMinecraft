@@ -12,14 +12,15 @@ import net.minecraft.client.renderer.texture.IIconRegister;
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.com)
  */
-public class BlockDNVM extends Block {
-    public BlockDNVM(Material material){
+public class OreDNVM extends Block {
+    public OreDNVM(Material material){
         super(material);
     }
-    public BlockDNVM(){
+    public OreDNVM(){
         this(Material.rock);
         this.setCreativeTab(CreativeTab.DNVM_GENERAL);
     }
+
     @Override
     public String getUnlocalizedName()
     {
