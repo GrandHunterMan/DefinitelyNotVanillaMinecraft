@@ -18,5 +18,7 @@ public class Recipes{
         if( ConfigurationHandler.grass_recipe == true) GameRegistry.addShapelessRecipe(new ItemStack(Blocks.grass), Items.wheat_seeds, Blocks.dirt);
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ItemInit.ingotPoorNichrome), "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotNickel", "ingotChromium", "ingotChromium"));
-        }
+
+
+    }
 }

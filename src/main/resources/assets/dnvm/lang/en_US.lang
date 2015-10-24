@@ -34,5 +34,9 @@ item.dnvm:toggleSwitch.name=Toggle Switch
 item.dnvm:basicCapacitor.name=Basic Capacitor
 item.dnvm:basicResistor.name=Basic Resistor
 
-
+#CreativeTab
 itemGroup.dnvm=Definitely Not Vanilla Minecraft
+
+#Keybindings
+keys.dnvm.category=Definitely Not Vanilla Minecraft
+keys.dnvm.explode=Explode Yourself

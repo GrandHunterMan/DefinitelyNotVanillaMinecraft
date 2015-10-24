@@ -1,11 +1,9 @@
-package com.grandhunterman.dnvm.proxy;
+package com.grandhunterman.dnvm.reference;
 
 /**
  * Definitely Not Vanilla Minecraft
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.com)
  */
-public interface IProxy {
-    public abstract void registerKeyBindings();
-
-
+public enum Key {
+    UNKNOWN, EXPLODE
 }

@@ -5,6 +5,7 @@ package com.grandhunterman.dnvm;
  * Copyright (C) 2015  GrandHunterMan (http://www.grandhunterman.com)
  */
 
+import com.grandhunterman.dnvm.client.handler.KeyInputEventHandler;
 import com.grandhunterman.dnvm.handler.ConfigurationHandler;
 import com.grandhunterman.dnvm.init.BlockInit;
 import com.grandhunterman.dnvm.init.ItemInit;
@@ -18,7 +19,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-
+import cpw.mods.fml.common.gameevent.InputEvent;
 
 
 @Mod(modid = General.MOD_ID, name = General.MOD_NAME, version = General.MOD_VERSION, guiFactory = General.GUI_FACTORY)
@@ -39,12 +40,15 @@ public class dnvm {
        ItemInit.init();
        BlockInit.init();
        OreDictRegister.Register();
+       proxy.registerKeyBindings();
+
     }
 
     //INIT
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
        Recipes.init();
+       FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
     }
 
     //POSTINIT

@@ -1,9 +1,6 @@
 package com.grandhunterman.dnvm.init;
 
-import com.grandhunterman.dnvm.blocks.BlockDNVM;
-import com.grandhunterman.dnvm.blocks.BlockSalt;
-import com.grandhunterman.dnvm.blocks.BlockTitanium;
-import com.grandhunterman.dnvm.blocks.OreDNVM;
+import com.grandhunterman.dnvm.blocks.*;
 import com.grandhunterman.dnvm.blocks.ore.*;
 import com.grandhunterman.dnvm.reference.General;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -27,6 +24,8 @@ public class BlockInit {
     public static final OreDNVM oreChrome = new BlockChromeOre();
     public static final OreDNVM oreNickel = new BlockNickelOre();
     public static final OreDNVM oreTin = new BlockTinOre();
+    //Testing
+    public static final BlockDNVM blockActivator = new BlockActivator();
 
     public static void init(){
         GameRegistry.registerBlock(blockSalt, "blockSalt");
@@ -41,5 +40,7 @@ public class BlockInit {
         GameRegistry.registerBlock(oreChrome, "oreChrome");
         GameRegistry.registerBlock(oreNickel, "oreNickel");
         GameRegistry.registerBlock(oreTin, "oreTin");
+        //Testing
+        GameRegistry.registerBlock(blockActivator, "blockActivator");
     }
 }
