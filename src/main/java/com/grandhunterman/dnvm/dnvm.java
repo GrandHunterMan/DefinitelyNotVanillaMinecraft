@@ -11,6 +11,7 @@ import com.grandhunterman.dnvm.init.BlockInit;
 import com.grandhunterman.dnvm.init.ItemInit;
 import com.grandhunterman.dnvm.init.OreDictRegister;
 import com.grandhunterman.dnvm.init.Recipes;
+import com.grandhunterman.dnvm.network.NetworkHandler;
 import com.grandhunterman.dnvm.proxy.IProxy;
 import com.grandhunterman.dnvm.reference.General;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -41,6 +42,7 @@ public class dnvm {
        BlockInit.init();
        OreDictRegister.Register();
        proxy.registerKeyBindings();
+       NetworkHandler.init();
 
     }
 

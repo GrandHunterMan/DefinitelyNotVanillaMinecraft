@@ -15,6 +15,7 @@ public class ConfigurationHandler {
 
     public static Configuration configuration;
     public static boolean grass_recipe = true;
+    public static boolean explode_self = false;
 
     public static void init(File configFile) {
        if (configuration == null){
@@ -37,6 +38,7 @@ public class ConfigurationHandler {
 
     private static void loadConfiguration(){
         grass_recipe = configuration.getBoolean("grassRecipe", configuration.CATEGORY_GENERAL, true, "Can craft grass blocks with seeds and dirt");
+        explode_self = configuration.getBoolean("explodeSelf", configuration.CATEGORY_GENERAL, false, "Can press key to detonate");
         if (configuration.hasChanged()){
             configuration.save();
         }
